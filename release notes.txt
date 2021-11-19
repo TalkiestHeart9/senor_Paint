@@ -1,0 +1,91 @@
+Matthew's Paint Version 1.5 10/4/21
+New features:
+  * help updated
+Known issues:
+  * no tabs
+  * no color grabber
+  * no text tool
+  * safe exit does not work as intended
+  * undo/redo missing
+  * can not draw ploygon
+  * no cut tool
+  * no live draw
+  * scroll does not work
+What would be added given time:
+  * I would add a feature that would allow the user to draw multiple shapes at once in different colors
+
+
+
+New features:
+  * eraser tool
+  * cool new shape
+  * blank starter canvas
+Known issues:
+  * no tabs
+  * no color grabber
+  * no text tool
+  * safe exit does not work as intended
+  * undo/redo missing
+  * can not draw ploygon
+  * no cut tool
+  * no live draw
+  * scroll does not work
+Expected next sprint:
+* have at least 3 unit tests.  (More info coming in class...)
+* have a timer that allows for "autosave" [every X seconds, it saves a temporary copy - it should NOT overwrite the existing file if any]; ideally this should be threaded.  This timer should be visible/invisible to the user at their option.  X should be something that can be set by the user.  If changed, it should persist on the next use of the software on that machine.]
+* have some JavaDoc commenting.  (More info on this coming, also)
+* have icons for tools
+* have updated help
+* have mouseover help for controls (if a icons+text as the tool, a short explanation is sufficient - if icons only were used, just a text name is sufficient)
+
+New features:
+  * keyboard ui, such as ctrl s for save or alt f for file
+  * can open multiple image files
+  * draw circle, square, elipse, and circle
+  * zoom in and out
+Known issues:
+  * no tabs
+  * no color grabber
+  * no text tool
+  * safe exit does not work as intended
+Expected next sprint:
+  * have an Undo/Redo using an abstract data type ("stack" preferred/recommended); you should not use the FX built in tool!
+  * provide Blank / starter image (a tab or the tool should not have just a grey tab...)
+  * have an additional shape of your choice
+  * have an eraser tool
+  * be able to draw a "regular" (same side length) polygon with the user specifying the # of sides.
+  * Live draw / interactive draw (you should "see" the line or shape as you draw it)
+  * [The Big One] Select a piece of the image and move it.
+
+
+
+Matthew's Paint Version 1.1 9/17/21
+
+New features:
+  * user can pick color of line
+  * can draw lines
+  * save and save as work
+  * user can adjust line width
+Known issues:
+  * no scroll panes
+Expected next sprint:
+  * draw straight lines
+  * draw shapes
+  * multiple image types
+
+
+
+
+
+Matthew's Paint Version 1.0 9/10/21
+
+New features:
+  * Canvas added
+  * menu bar added
+  * open image function added
+  * exit button added
+Known issues:
+  * images are displayed cropped
+Expected next sprint:
+  * save button functionality
+  * resized images
